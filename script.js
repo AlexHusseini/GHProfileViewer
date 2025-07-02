@@ -6,7 +6,7 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
     const username = input.value.trim();
 
-    console.log('You searched for:', username);
+    console.log('You searched for:', username);  //testing for username
 
     
     Gitname(username);

@@ -1,3 +1,18 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  background: linear-gradient(-45deg, purple, blue, cyan, purple);
+  background-size: 400% 400%;
+  animation: gradientShift 5s ease infinite;
+}
+
+@keyframes colorShit {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -5,4 +20,7 @@
   justify-content: center;   /* Vertical centering */
   height: 100vh;             /* Full viewport height */
   text-align: center;        /* Center text inside elements */
+  color: rgb(15, 7, 7);
+  font-family: sans-serif;
 }
+
